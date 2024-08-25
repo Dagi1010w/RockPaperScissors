@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+    body{
+    background-color: black;
+    font-family: Arial;
+    color: white;
+    width: 100%;
+    }
+    .header{
+        background-color: yellow;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-paragraph{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: red;
+    }
+    .move-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .move-image{
+        height: 120px;
+    }
+    .button-image{
+        background-color: transparent;
+        border: 3px solid white;
+        height: 210px;
+        width: 210px;
+        margin-top: 30px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        border-radius: 105px;
+    }
+    .score-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .result{
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .green{
+        font-weight: bolder;
+        color: green;
+        margin-bottom: 0px;
+    }
+    .red{
+        font-weight: bolder;
+        color: red;
+        margin-bottom: 0px;
+    }
+    .yellow{
+        font-weight: bolder;
+        color: yellow; 
+        margin-bottom: 0px;
+    }
+    .moves{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .span{
+        margin: 25px;
+        font-size: 1.5rem;
+    }
+    .result-span{
+        font-size: 1.8rem;
+    }
+    .scorebord{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .reset-button{
+        font-size: 20px;
+        padding: 15px;
+        border: none;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+    }
+    @media screen and (max-width: 770px) {
+        .button-image{
+            height: 180px;
+            width: 180px;
+            border-radius: 90px;
+        }
+    }
+    @media screen and (max-width: 670px) {
+        .button-image{
+            height: 150px;
+            width: 150px;
+            border-radius: 75px;
+        }
+        .move-image{
+            height: 100px;
+        }
+    }
+    @media screen and (max-width: 570px) {
+        .button-image{
+            height: 120px;
+            width: 120px;
+            border-radius: 60px;
+        }
+        .move-image{
+            height: 80px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .button-image{
+            margin-right: 20px;
+        }
+        .reset-button{
+            padding: 10px;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        .button-image{
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+        }
+        .move-image{
+            height: 50px;
+        }
+        .result-span{
+            font-size: 1.5rem;
+        }
+    }
+    @media screen and (max-width: 350px) {
+        .title-paragraph{
+            font-size: 20px;
+        }
+        .button-image{
+            height: 80px;
+            width: 80px;
+            border-radius: 40px;
+            margin-right: 10px;
+        }
+        .move-image{
+            height: 40px;
+        }
+        .result-span{
+            font-size: 1.3rem;
+        }
+    }
+    @media screen and (max-width: 270px) {
+        .title-paragraph{
+            font-size: 18px;
+        }
+        .button-image{
+            height: 70px;
+            width: 70px;
+            border-radius: 35px;
+            margin-right: 8px;
+        }
+        .move-image{
+            height: 30px;
+        }
+        .result-span{
+            font-size: 1rem;
+        }
+        .span{
+            font-size: 1rem;
+            margin: 10px;
+        }
+    }
